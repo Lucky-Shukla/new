@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body
+{
+
+background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./app/imgaes/pexels-hasan-albari-1229861.jpg);
+background-size:  1837px 1006px;
+color:white;
+
+}

@@ -1,0 +1,17 @@
+<div style="width: 100%;border: 1px solid black;height: 200px;display: flex;justify-content: center;align-items: center;" >
+
+<h1 style="color: green;font-family: sans-serif;">OUR PRODUCTS</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<button (click)="check()" class = "btn btn-primary">show product of store</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<div *ngIf = "confirm" style="color: white;" >
+
+    <label>Product Name</label>&nbsp;&nbsp;&nbsp;&nbsp;{{ mydata.data.productName }} <br><br>
+
+    <label>Product ID</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ mydata.data.Pid }}<br><br>
+
+    <label>Product Price</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ mydata.data.productPrice }}
+  
+
+</div>
+</div>
